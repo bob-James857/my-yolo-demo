@@ -6,7 +6,7 @@ import logging
 import io # 用于处理Streamlit上传的文件
 
 # --- 配置 ---
-MODEL_PATH = yolo11n.pt'  # 请确保这是您模型的准确路径
+MODEL_PATH = 'yolo11n.pt'  # 请确保这是您模型的准确路径
 DEFAULT_CONFIDENCE = 0.25
 
 # --- 日志记录 (Streamlit中可以直接使用st.write, st.info, st.error等，logging也可用于后台) ---
